@@ -48,7 +48,6 @@ export default {
         .then(data => {
           movies.value = data.Search;
           search.value = "";
-          /* console.log(movies.value); */
         });
       }
     }
